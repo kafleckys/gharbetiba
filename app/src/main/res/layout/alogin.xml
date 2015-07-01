@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--hatayeko part ho yo-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aaee00"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#ccddee"
+        android:layout_weight="35">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Online Rental System"
+            android:textSize="50dp"
+            android:paddingTop="75px"
+
+            android:gravity="center"
+
+            android:id="@+id/OnlineRentalSystem" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+       >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="Create New Account"
+            android:onClick="PerformLogin"
+            android:textSize="28sp"
+            android:id="@+id/createnewaccount"
+            android:textColor="#FFE64114"
+            android:width="18dp"
+            android:layout_marginTop="55px"
+            android:layout_marginLeft="45px"
+            android:layout_marginRight="45px" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Have an account"
+            android:textSize="24sp"
+            android:textColor="#FFE64114"
+            android:id="@+id/textView4" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:text="Login"
+            android:textSize="34sp"
+            android:textColor="#FFE64114"
+            android:layout_marginTop="45px"
+            android:layout_marginLeft="45px"
+            android:layout_marginRight="45px"
+            android:id="@+id/login"
+            android:onClick="PerformLogin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:background="#aaee00"
+        ></LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

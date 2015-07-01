@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.prakash.gharpeti" >
+    <!--
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <permission
+        android:name="com.example.prakash.gharpeti.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+              yo vaneko android le add gareko part ho afai
+    <application>
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="@string/google_maps_key"/>
+
+        <activity android:name="com.example.prakash.gharpeti.MapsActivity"
+            android:label="@string/title_activity_maps">
+
+        </activity>
+    </application>
+        
+         yaha samma ho              -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       <!-- <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> -->
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.prakash.gharpeti.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Alogin"
+            android:label="@string/app_name1" >
+    <intent-filter>
+                <action android:name="com.example.prakash.gharpeti.ALOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ResetHere"
+            android:label="@string/forgot_password" >
+            <intent-filter>
+                <action android:name="com.example.prakash.gharpeti.RESETHERE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Alogin1"
+            android:label="@string/app_name1" > <!-- yesko kam vaneko action bar ma lekhne tei name le-->
+            <intent-filter>
+                <action android:name="com.example.prakash.gharpeti.ALOGIN1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateNewAccountForm"
+            android:label="@string/create_new_account" >
+             <intent-filter>
+                 <action android:name="com.example.prakash.gharpeti.CreateNewAccountForm" />
+
+                 <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+         </activity>
+         <activity
+             android:name=".AddPostForm"
+             android:label="@string/add_post"
+             >
+                <intent-filter>
+                  <action android:name="com.example.prakash.gharpeti.ADDPOSTFORM" />
+
+                  <category android:name="android.intent.category.DEFAULT" />
+              </intent-filter>
+         </activity>
+         <activity
+             android:name=".SearchByUserFrom"
+             android:label="@string/filter_search" >
+                 <intent-filter>
+                    <action android:name="com.example.prakash.gharpeti.SearchByUserFrom" />
+
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+           </activity>
+        <!-- <meta-data
+             android:name="com.google.android.maps.v2.API_KEY"
+             android:value="AIzaSyDg3bZVJDJcoJS_lFm_wEgEhct2Y3i714k"/>  -->
+     </application>
+
+ </manifest>
+
+
+
+
+
+

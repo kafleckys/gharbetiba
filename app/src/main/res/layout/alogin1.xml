@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#ccddee"
+    android:weightSum="7">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#fff8fafc"
+        android:layout_margin="55px"
+        >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textSize="24sp"
+            android:id="@+id/editText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textSize="34sp"
+
+            android:id="@+id/editText2" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.72">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="PerformResethere"
+            android:background="#FFEE8E05"
+            android:id="@+id/submitbuttonforlogin1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.32">
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.72">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_height="wrap_content"
+            android:text="Create New Account"
+            android:onClick="PerformResethere"
+            android:background="#ffc5eeca"
+            android:id="@+id/createnewaccount" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Your Password"
+            android:textSize="20sp"
+            android:id="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset here"
+            android:textSize="25sp"
+            android:textColorHint="#FFEEED52"
+            android:textColorHighlight="#ff96ee2c"
+            android:textColor="#FFEE33B7"
+            android:paddingLeft="400px"
+            android:paddingTop="25px"
+            android:clickable="true"
+            android:id="@+id/resethere"
+            android:onClick="PerformResethere"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
